@@ -26,7 +26,7 @@ fi
 
 # Extract Chitubox to install dir
 sudo mkdir $INSTALL_DIR/chitubox
-sudo tar -xvf $FILE -C $INSTALL_DIR/chitubox --strip-components 1
+sudo tar -xvf $FILE -C $INSTALL_DIR/chitubox
 
 # Deploy icons
 ## 32x32
